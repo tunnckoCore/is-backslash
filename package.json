@@ -1,0 +1,46 @@
+{
+  "name": "is-backslash",
+  "version": "0.1.0",
+  "description": "Checks given value is backslash - support char code number, hex, unicode or string value to be given.",
+  "repository": "tunnckoCore/is-backslash",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "is-real-object": "^1.0.1"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "alike",
+    "backslash",
+    "char",
+    "character",
+    "charcode",
+    "check",
+    "code",
+    "escape",
+    "hex",
+    "hexidecimal",
+    "html",
+    "is",
+    "is-backslash",
+    "like",
+    "number",
+    "slash",
+    "strict",
+    "string",
+    "true",
+    "unicode",
+    "val",
+    "validate",
+    "value"
+  ]
+}
