@@ -56,6 +56,25 @@ console.log(isBackslash())                          // => false
 ```
 
 
+## Related
+- [is-async-function](https://github.com/tunnckocore/is-async-function): Check that given function is async (callback) function or not. Trying to guess that based on check if `callback`, `cb`, `done` or `next` exists as function argument name.
+- [is-child-process](https://github.com/tunnckocore/is-child-process): Checks whether a value is child process result, which in case is more specific Node.js EventEmitter.
+- [is-emitter](https://github.com/tunnckocore/is-emitter): Check that given value is EventEmitter, not so strict as `is-node-emitter`.
+- [is-empty-function](https://github.com/tunnckoCore/is-empty-function): Check that given string, function or arrow function have empty body, using `parse-function`.
+- [is-hexcolor](https://github.com/tunnckocore/is-hexcolor): Check that given value is valid hex color, using `hex-color-regex` - the best regex for matching hex color values
+- [is-installed](https://github.com/tunnckoCore/is-installed): Checks that given package is installed on the system - globally or locally.
+- [is-kindof](https://github.com/tunnckocore/is-kindof): Check type of given javascript value. Support promises, generators, streams, and native types.
+- [is-missing](https://github.com/tunnckocore/is-missing): Check that given `name` or `user/repo` exists in npm registry or in github as user repository.
+- [is-node-emitter](https://github.com/tunnckocore/is-node-emitter): Strictly checks that given value is nodejs EventEmitter. It's easy, because his API is in frozen state.
+- [is-node-stream](https://github.com/tunnckocore/is-node-stream): Strictly and correctly checks if value is a nodejs stream.
+- [is-real-object](https://github.com/tunnckocore/is-real-object): Returns `true` if a value is any type of object, but not an array. Browserify-ready.
+- [is-request-stream](https://github.com/tunnckocore/is-request-stream): Check that given value is request stream
+- [is-singular](https://github.com/tunnckocore/is-singular): Return true if given word is in singular form like `apple`, `car`, `test` and false otherwise, never throws.
+- [is-sync-function](https://github.com/tunnckocore/is-sync-function): Opposite of `is-async-function`. Check that given function is synchronous.
+- [is-typeof-error](https://github.com/tunnckocore/is-typeof-error): Check that given value is any type of error and instanceof Error
+- [is-forwardslash](https://github.com/tunnckocore/is-forwardslash): Checks given value is forwardslash - support char code number, hex, unicode or string value to be given.
+
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-backslash/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
